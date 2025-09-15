@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        margin-top: 150px;
+      }
+      .container {
+        background-color: rgb(38, 37, 37);
+        color: white;
+        padding-left: 10px;
+        border-radius: 5px;
+        width: 300px;
+        height: 600px;
+        text-align: center;
+      }
+      .london {
+        color: chartreuse;
+        line-height: 0px;
+      }
+      .front {
+        font-size: 13px;
+      }
+      .photo {
+        width: 70px;
+        border-radius: 100px;
+        margin-top: 40px;
+      }
+      .two {
+        line-height: 2px;
+      }
+      button {
+        color: white;
+        background-color: rgb(47, 47, 47);
+        border-radius: 6px;
+        border: none;
+        height: 50px;
+        width: 250px;
+      }
+      .second {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img class="photo" src="assets/images/avatar-jessica.jpeg" alt="photo" />
+      <div class="two">
+        <h3>Jessica Randall</h3>
+        <h5 class="london">London, United Kingdom</h5>
+      </div>
+      <p class="front">"Front-end developer and avid reader."</p>
+      <div class="second">
+        <button><b>GitHub</b></button> <br />
+        <button><b> Frontend Mentor </b></button> <br />
+        <button><b> LinkedIn </b></button> <br />
+        <button><b> Twitter </b></button> <br />
+        <button><b> Instagram </b></button> <br />
+      </div>
+    </div>
+  </body>
+</html>
